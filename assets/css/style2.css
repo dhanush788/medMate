@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .columns {
+    float: left;
+    width: 33.3%;
+    padding: 8px;
+  }
+  
+  .price {
+    list-style-type: none;
+    border: 1px solid #eee;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  
+  .price:hover {
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+  }
+  
+  .price .header {
+    /* background-image:url("assets/images/logo.jpg"); */
+    background-color: #cccccc;
+    /* color: white;
+    font-size: 25px; */
+  }
+  
+  .price li {
+    border-bottom: 1px solid #eee;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .price .grey {
+    background-color: #eee;
+    font-size: 20px;
+  }
+  
+  .button {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .columns {
+      width: 100%;
+    }
+  }
+
+  nav {
+    padding-top: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 18px;
+  }
+  
+  nav a {
+    font-size: x-large;
+    text-decoration: none;
+    color: black;
+    padding: 0 1rem;
+  }
+  
+  nav form {
+    display: flex;
+    align-items: center;
+  }
+  
+  nav input[type="text"] {
+    border: none;
+    outline: none;
+    background-color: white;
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  nav button {
+    border: none;
+    outline: none;
+    background-color: blue;
+    color: white;
+    padding: 0.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+  }

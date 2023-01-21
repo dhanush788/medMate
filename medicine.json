@@ -1,0 +1,42 @@
+{
+    "prices": [
+      {
+        "description": "Demeclocycline 150 mg tablet",
+        "cost": "9.42",
+        "currency": "inr",
+        "unit": "tablet"
+        },
+      {
+        "description": "Declomycin 150 mg tablet",
+        "cost": "29.65",
+        "currency": "inr",
+        "unit": "tablet"
+        },
+      {
+          "description": "Allegra 180mg Tablet",
+          "cost": "12.31",
+          "currency": "inr",
+          "unit": "tablet"
+          },
+      {
+        "description": "Apetamin 2mg Syrup",
+        "cost": "12.31",
+        "currency": "inr",
+        "unit": "Syrup"
+        },
+      {
+          "description": "Betadine 2% Solution",
+          "cost": "12.31",
+          "currency": "inr",
+          "unit": "Solution"
+          },
+      {
+        "description": "Bengel AC 2.5% Gel",
+        "cost": "12.31",
+        "currency": "inr",
+        "unit": "Gel"
+        }   
+
+    ]
+  }
+  
